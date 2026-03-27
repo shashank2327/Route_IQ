@@ -1,0 +1,67 @@
+{
+  "rep": {
+    "rep_name": "Priya Sharma",
+    "start_location": "91 Springboard, Koramangala, Bengaluru, Karnataka 560034",
+    "start_time": "09:00",
+    "max_visits": 2,
+    "work_hours": "09:00-18:00"
+  },
+  "clients": [
+    {
+      "client_name": "Biocon Limited",
+      "address": "Biocon Park, Jigani Link Rd, Bommasandra, Bengaluru, Karnataka 560099",
+      "last_visit_date": "2026-02-20",
+      "deal_stage": "closing",
+      "deal_value_usd": 200000
+    },
+    {
+      "client_name": "Wipro Electronic City",
+      "address": "Wipro Campus, Electronic City Phase 1, Bengaluru, Karnataka 560100",
+      "last_visit_date": "2026-03-10",
+      "deal_stage": "discovery",
+      "deal_value_usd": 40000
+    },
+    {
+      "client_name": "L&T Technology Services",
+      "address": "L&T Tech Park, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066",
+      "last_visit_date": "2026-03-05",
+      "deal_stage": "proposal",
+      "deal_value_usd": 95000
+    },
+    {
+      "client_name": "Mindtree Ltd",
+      "address": "Global Village Tech Park, KIADB Export Promotion Industrial Area, Bengaluru, Karnataka 560045",
+      "last_visit_date": "2026-02-28",
+      "deal_stage": "negotiation",
+      "deal_value_usd": 60000
+    },
+    {
+      "client_name": "Mphasis Bengaluru",
+      "address": "Bagmane World Technology Center, Marathahalli - Sarjapur Outer Ring Rd, Bengaluru, Karnataka 560037",
+      "last_visit_date": "2026-01-15",
+      "deal_stage": "prospecting",
+      "deal_value_usd": 30000
+    },
+    {
+      "client_name": "Bosch India",
+      "address": "Bosch Limited, Hosur Road, Adugodi, Bengaluru, Karnataka 560030",
+      "last_visit_date": "2026-02-01",
+      "deal_stage": "negotiation",
+      "deal_value_usd": 150000
+    },
+    {
+      "client_name": "ABB India",
+      "address": "ABB India Limited, Doddanekundi, Whitefield Road, Bengaluru, Karnataka 560048",
+      "last_visit_date": "2026-03-15",
+      "deal_stage": "proposal",
+      "deal_value_usd": 110000
+    },
+    {
+      "client_name": "Tata Elxsi",
+      "address": "ITPB, Whitefield, Bengaluru, Karnataka 560066",
+      "last_visit_date": "2026-03-18",
+      "deal_stage": "discovery",
+      "deal_value_usd": 55000
+    }
+  ]
+}
