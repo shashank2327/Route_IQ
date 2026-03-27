@@ -21,17 +21,17 @@ def create_maps_toolset() -> MCPToolset:
     Requires:
       GOOGLE_MAPS_API_KEY environment variable to be set.
     """
-    # api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
-    # if not api_key:
-    #     raise EnvironmentError(
-    #         "GOOGLE_MAPS_API_KEY is not set. "
-    #         "Copy .env.example to .env and fill in your key."
-    #     )
+    api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
+    if not api_key:
+        raise EnvironmentError(
+            "GOOGLE_MAPS_API_KEY is not set. "
+            "Copy .env.example to .env and fill in your key."
+        )
 
-    # return MCPToolset(
-    #     connection_params=StdioServerParameters(
-    #         command="npx",
-    #         args=["-y", "@modelcontextprotocol/server-google-maps"],
-    #         env={"GOOGLE_MAPS_API_KEY": api_key},
-    #     )
-    # )
+    return MCPToolset(
+        connection_params=StdioServerParameters(
+            command="npx",
+            args=["-y", "@modelcontextprotocol/server-google-maps"],
+            env={"GOOGLE_MAPS_API_KEY": api_key},
+        )
+    )
